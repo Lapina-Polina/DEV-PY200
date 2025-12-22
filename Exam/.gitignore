@@ -1,0 +1,75 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Django
+# =========================
+db.sqlite3
+*.log
+local_settings.py
+
+# Media files (если появятся)
+media/
+
+# =========================
+# Django migrations
+# =========================
+# НЕ игнорируем migrations целиком!
+# Игнорируем только кеш
+**/migrations/__pycache__/
+
+# =========================
+# Static files (collectstatic)
+# =========================
+staticfiles/
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Node / frontend мусор
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Coverage / test reports
+# =========================
+.coverage
+htmlcov/
+
+# =========================
+# Pytest
+# =========================
+.pytest_cache/
+
+# =========================
+# mypy / pylint
+# =========================
+.mypy_cache/
+.pylint.d/

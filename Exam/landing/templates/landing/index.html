@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<style>
+  #contact-us .form-group {
+      margin-bottom: 15px;
+  }
+
+  #contact-us input,
+  #contact-us textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+  }
+
+  #contact-us label {
+      font-weight: 500;
+      margin-bottom: 5px;
+  }
+</style>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Template Mo">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+    <title>Art Factory HTML CSS Template</title>
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'landing/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'landing/css/font-awesome.css' %}">
+    <link rel="stylesheet" href="{% static 'landing/css/templatemo-art-factory.css' %}">
+    <link rel="stylesheet" href="{% static 'landing/css/owl-carousel.css' %}">
+  </head>
+
+<body>
+
+<!-- ***** Preloader Start ***** -->
+<div id="preloader">
+    <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- ***** Preloader End ***** -->
+
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <a href="#" class="logo">Art Factory</a>
+                    <ul class="nav">
+                        <li class="scroll-to-section"><a href="#welcome" class="active">Home</a></li>
+                        <li class="scroll-to-section"><a href="#about">About</a></li>
+                        <li class="scroll-to-section"><a href="#services">Services</a></li>
+                        <li class="scroll-to-section"><a href="#frequently-question">Frequently Questions</a></li>
+                        <li class="submenu">
+                            <a href="javascript:;">Drop Down</a>
+                            <ul>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Features</a></li>
+                                <li><a href="">FAQ's</a></li>
+                                <li><a href="">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+                    </ul>
+                    <a class="menu-trigger"><span>Menu</span></a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ***** Header Area End ***** -->
+
+<!-- ***** Welcome Area Start ***** -->
+<div class="welcome-area" id="welcome">
+    <div class="header-text">
+        <div class="container">
+            <div class="row">
+                <div class="left-text col-lg-6 col-md-6 col-sm-12">
+                    <h1>Art Factory is free <strong>for YOU</strong></h1>
+                    <p>This template is available for 100% free of charge on TemplateMo.</p>
+                    <a href="#about" class="main-button-slider">Find Out More</a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="{% static 'landing/images/slider-icon.png' %}" class="rounded img-fluid d-block mx-auto" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Welcome Area End ***** -->
+
+<!-- ***** About Section ***** -->
+<section class="section" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <img src="{% static 'landing/images/left-image.png' %}" class="rounded img-fluid d-block mx-auto" alt="">
+            </div>
+            <div class="col-lg-5">
+                <h5>Vivamus sodales nisi id ante molestie venenatis</h5>
+                <p>Template updated on 20 August 2019.</p>
+                <a href="#about2" class="main-button">Discover More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="about2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <h5>Curabitur aliquam eget tellus id porta</h5>
+                <ul>
+                    <li>
+                        <img src="{% static 'landing/images/about-icon-01.png' %}" alt="">
+                        <h6>Nulla ultricies risus</h6>
+                    </li>
+                    <li>
+                        <img src="{% static 'landing/images/about-icon-02.png' %}" alt="">
+                        <h6>Donec consequat</h6>
+                    </li>
+                    <li>
+                        <img src="{% static 'landing/images/about-icon-03.png' %}" alt="">
+                        <h6>Sed placerat</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-7">
+                <img src="{% static 'landing/images/right-image.png' %}" class="rounded img-fluid d-block mx-auto" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ***** Services ***** -->
+<section class="section" id="services">
+    <div class="container">
+        <div class="row">
+            <div class="owl-carousel owl-theme">
+
+                <div class="item service-item">
+                    <div class="icon">
+                        <i>
+                            <img src="{% static 'landing/images/service-icon-01.png' %}" alt="">
+                        </i>
+                    </div>
+                    <h5 class="service-title">First Service</h5>
+                    <p>Description text here</p>
+                    <a href="#" class="main-button">Read More</a>
+                </div>
+
+                <div class="item service-item">
+                    <div class="icon">
+                        <i>
+                            <img src="{% static 'landing/images/service-icon-02.png' %}" alt="">
+                        </i>
+                    </div>
+                    <h5 class="service-title">Second Service</h5>
+                    <p>Description text here</p>
+                    <a href="#" class="main-button">Read More</a>
+                </div>
+
+                <div class="item service-item">
+                    <div class="icon">
+                        <i>
+                            <img src="{% static 'landing/images/service-icon-03.png' %}" alt="">
+                        </i>
+                    </div>
+                    <h5 class="service-title">Third Service</h5>
+                    <p>Description text here</p>
+                    <a href="#" class="main-button">Read More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ***** Contact Form ***** -->
+<section class="section" id="contact-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <h3 class="text-center">Связаться с нами</h3>
+
+                <form method="post" id="contact-form">
+                    {% csrf_token %}
+
+                    <div class="form-group">
+                        {{ form.name.label_tag }}
+                        {{ form.name }}
+                    </div>
+
+                    <div class="form-group">
+                        {{ form.email.label_tag }}
+                        {{ form.email }}
+                    </div>
+
+                    <div class="form-group">
+                        {{ form.message.label_tag }}
+                        {{ form.message }}
+                    </div>
+
+                    <button type="submit" class="main-button" style="margin-top:10px;">
+                        Отправить
+                    </button>
+                </form>
+
+                <pre id="form-response" style="margin-top:20px;"></pre>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ***** Footer ***** -->
+<footer>
+    <div class="container">
+        <p>Copyright © 2020 Art Factory</p>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="{% static 'landing/js/jquery-2.1.0.min.js' %}"></script>
+<script src="{% static 'landing/js/popper.js' %}"></script>
+<script src="{% static 'landing/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'landing/js/owl-carousel.js' %}"></script>
+<script src="{% static 'landing/js/scrollreveal.min.js' %}"></script>
+<script src="{% static 'landing/js/waypoints.min.js' %}"></script>
+<script src="{% static 'landing/js/jquery.counterup.min.js' %}"></script>
+<script src="{% static 'landing/js/imgfix.min.js' %}"></script>
+<script src="{% static 'landing/js/custom.js' %}"></script>
+
+<script>
+document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    fetch("", {
+        method: "POST",
+        body: new FormData(this),
+        headers: {
+            "X-Requested-With": "XMLHttpRequest"
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById('form-response').textContent =
+            JSON.stringify(data, null, 2);
+    });
+});
+</script>
+</body>
+</html>
